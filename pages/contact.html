@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio">
+    <meta name="keywords" content="Personal Portfolio, Portfolio">
+    <meta name="author" content="Matthew Chavez">
+
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="shortcut icon" href="/images/favicon_gandalf.png">
+
+
+    <title>Personal Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="page_header">
+            <div class="ring-container">
+                <img src="/images/One_Ring.png" alt="One Ring" class="ring" id="ring">
+            </div>
+            <h1>Contact Me</h1>
+        </header>
+        
+        <nav class="nav_bar">
+            <a href="/index.html">Home</a> <p>|</p>
+            <a href="/pages/about_me.html">About Me</a> <p>|</p>
+            <a href="/pages/cv.html">CV</a> <p>|</p>
+            <a href="/pages/portfolio.html">Portfolio</a> <p>|</p>
+            <a href="/pages/blog.html">Blog</a> <p>|</p>
+            <a href="/pages/contact.html">Contact</a>
+        </nav>
+    
+        <main class="page_main">
+            <br/>
+            <section class="contact">
+                <img src="/images/frodo-and-gandalf.jpg" alt="Contact Gandalf" width="450" id="fireworks">
+                <h2>If you need to get in touch, fill out the form...</h2>
+            </section>
+            
+            <form action="/submit" method="post" class="contact_form">
+                <div class="name">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required aria-label="Name" autocomplete="name">
+                </div>
+                
+                <div class="email">
+                    <label for="user-email">Email:</label>
+                    <input type="email" id="user-email" name="user-email" placeholder="Enter your email" required aria-label="Email" autocomplete="email">
+                </div>
+                
+                <div class="phone">
+                    <label for="phone">Phone:</label>
+                    <input type="text" id="phone" name="phone" pattern="[0-9]{10}" placeholder="10-digit phone number" required aria-label="Phone" autocomplete="tel">
+                </div>
+                
+                <div class="preferred_contact">
+                    <p for="Preferred Contact Method">Preferred Contact Method:</p>
+                    <input type="radio" id="email" name="contact-method" value="email" required>
+                    <label for="email">Email</label>
+                    <input type="radio" id="phone" name="contact-method" value="phone">
+                    <label for="phone">Phone</label>
+                </div>
+                
+                <div class="comments">
+                    <label for="comments">What's on your mind:</label> 
+                    <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Share your thoughts..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit">Submit</button>
+                <button type="reset" class="reset">Reset</button>
+            </form>
+        </main>
+    
+        <footer class="page_footer">
+            <h2>Additional Information</h2>
+            <p>For more information, contact me <a href="/pages/contact.html">here</a></p>
+            <address>
+                Follow me on <a href="https://twitter.com/GandalfTheGuide?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Twitter</a> and <a href="https://www.linkedin.com/in/gandalf-the-grey-77138096/?originalSubdomain=uk" target="_blank">LinkedIn</a> for updates.
+            </address>
+        </footer>
+    </div>
+
+    <div id="video-overlay">
+        <button id="close-button">X</button>
+        <iframe id="overlay-video-frame" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <script src="/scripts/scripts.js"></script>
+</body>
+</html>
