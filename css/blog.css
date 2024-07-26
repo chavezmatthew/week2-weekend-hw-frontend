@@ -82,6 +82,10 @@ html, body {
     right: 50px
 }
 
+.page_header h1:hover {
+    cursor: default;
+}
+
 .ring-container {
     position: relative;
     width: 75px;
