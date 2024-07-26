@@ -1,27 +1,27 @@
 @font-face {
     font-family: 'RingBearer';
-    src: url('/fonts/Ringbearer.ttf') format('truetype');
+    src: url('../fonts/Ringbearer.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Hobbiton';
-    src: url('/fonts/Hobbiton.ttf') format('truetype');
+    src: url('../fonts/Hobbiton.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'MiddleEarth';
-    src: url('/fonts/MiddleEarth.ttf') format('truetype');
+    src: url('../fonts/MiddleEarth.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Aniron';
-    src: url('/fonts/Aniron.ttf') format('truetype');
+    src: url('../fonts/Aniron.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
