@@ -232,7 +232,7 @@ time {
 }
 
 .further_readings a:hover {
-    color: #909cb5; 
+    color: #909cb5;
 }
 
 .page_footer {
@@ -277,7 +277,7 @@ time {
 }
 
 .page_footer a:hover {
-    color: #909cb5; 
+    color: #909cb5;
 }
 
 
@@ -408,8 +408,8 @@ time {
     }
 
     .ring-container {
-        position: static; 
-        margin-bottom: 10px; 
+        position: static;
+        margin-bottom: 10px;
     }
 
     .page_header h1 {
@@ -425,7 +425,7 @@ time {
 
     .nav_bar a {
         display: block;
-        margin: 5px 0; 
+        margin: 5px 0;
     }
 
     .nav_bar p {
@@ -465,8 +465,8 @@ time {
     }
 
     .page_footer {
-        background-color: #707a8a; 
-        padding: 20px; 
+        background-color: #707a8a;
+        padding: 20px;
         text-align: center;
     }
 

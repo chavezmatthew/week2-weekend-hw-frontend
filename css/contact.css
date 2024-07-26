@@ -405,8 +405,8 @@ html, body {
     }
 
     .ring-container {
-        position: static; 
-        margin-bottom: 10px; 
+        position: static;
+        margin-bottom: 10px;
     }
 
     .page_header h1 {
@@ -422,7 +422,7 @@ html, body {
 
     .nav_bar a {
         display: block;
-        margin: 5px 0; 
+        margin: 5px 0;
     }
 
     .nav_bar p {
@@ -441,8 +441,8 @@ html, body {
     }
 
     .page_footer {
-        background-color: #707a8a; 
-        padding: 20px; 
+        background-color: #707a8a;
+        padding: 20px;
         text-align: center;
     }
 
